@@ -84,9 +84,9 @@ pX = startPlayerPositionX;
 pY = startPlayerPositionY;
 
 function squareFieldDimentionsCheck(pos) {
-    // if (canvasW !== canvasH) {
-    //   return console.log('Write another Check Dimentions function for NON SQUARE game field.');
-    // }
+    if (canvasW !== canvasH) {
+        return console.log('Write another Check Dimentions function for NON SQUARE game field.');
+    }
     if (pos < 0) {
         return 0;
     }

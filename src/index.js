@@ -1,5 +1,4 @@
 import './index.scss';
-// import { concatSeries } from 'async';
 import SenseiWalk from './assets/Male-4-Walk.png';
 
 const canvas = document.getElementById('game');

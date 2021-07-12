@@ -17,6 +17,6 @@ module.exports = {
         // 'object-shorthand': 'off', //delete later
         // 'object-curly-newline': 'off', //delete later
         // 'max-len': ['error', { code: 120, comments: 140 }],
-        'object-curly-newline': ["error", { "multiline": true, "minProperties": 10 }]
+        // 'object-curly-newline': ["error", { "multiline": true, "minProperties": 10 }]
     },
 };

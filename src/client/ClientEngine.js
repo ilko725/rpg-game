@@ -52,7 +52,6 @@ class ClientEngine {
         return Promise.all(this.imageLoaders);
     }
 
-
     loadImage(url) {
         return new Promise((resolve) => {
             const i = new Image();

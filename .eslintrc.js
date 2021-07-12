@@ -9,12 +9,12 @@ module.exports = {
         // sourceType: 'module',
     },
     rules: {
-        'quotes': 'off',
-        'no-unused-vars': 'off',
-        'no-restricted-syntax': 'off',
-        'guard-for-in': 'off',
-        'prefer-const': 'off',
-        'object-shorthand': 'off',
-        'object-curly-newline': 'off',
+        'quotes': 'off', //delete later
+        'no-unused-vars': 'off', //delete later
+        'no-restricted-syntax': 'off', //delete later
+        'guard-for-in': 'off', //delete later
+        'prefer-const': 'off', //delete later
+        'object-shorthand': 'off', //delete later
+        'object-curly-newline': 'off', //delete later
     },
 };

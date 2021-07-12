@@ -10,7 +10,7 @@ module.exports = {
     },
     rules: {
         //'quotes': 'off', //delete later
-        'no-unused-vars': 'off', //delete later
+        // 'no-unused-vars': 'off', //delete later
         'no-restricted-syntax': 'off', //delete later
         'guard-for-in': 'off', //delete later
         // 'prefer-const': 'off', //delete later

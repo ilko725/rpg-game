@@ -1,7 +1,7 @@
 {
     "camera": {
-        "height": 15,
-        "width": 15,
+        "height": 20,
+        "width": 20,
         "x": 2,
         "y": 4
     },
@@ -143,7 +143,7 @@
                 ["grass"]
             ],
             [
-                ["grass"]
+                ["wall"]
             ],
             [
                 ["grass"]
@@ -208,15 +208,6 @@
                 ["wall"]
             ],
             [
-                ["wall"]
-            ],
-            [
-                ["wall"]
-            ],
-            [
-                ["wall"]
-            ],
-            [
                 ["grass"]
             ],
             [
@@ -232,60 +223,7 @@
                 ["grass"]
             ],
             [
-                ["grass"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["wall"]
-            ]
-        ],
-        [
-            [
-                ["wall"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["wall"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
+                ["grass", { "type": "boy1", "player": true }]
             ],
             [
                 ["grass"]
@@ -329,10 +267,10 @@
                 ["grass"]
             ],
             [
-                ["grass"]
+                ["wall"]
             ],
             [
-                ["wall"]
+                ["grass"]
             ],
             [
                 ["grass"]
@@ -394,10 +332,72 @@
                 ["wall"]
             ],
             [
-                ["wall"]
+                ["grass"]
+            ],
+            [
+                ["grass"]
             ],
             [
                 ["wall"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["wall"]
+            ]
+        ],
+        [
+            [
+                ["wall"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["wall"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
             ],
             [
                 ["wall"]
@@ -462,6 +462,56 @@
                 ["grass"]
             ],
             [
+                ["wall"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["wall"]
+            ]
+        ],
+        [
+            [
+                ["wall"]
+            ],
+            [
                 ["grass"]
             ],
             [
@@ -484,6 +534,80 @@
             ],
             [
                 ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["wall"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["wall"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["wall"]
+            ]
+        ],
+        [
+            [
+                ["wall"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["wall"]
+            ],
+            [
+                ["wall"]
+            ],
+            [
+                ["wall"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["wall"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["wall"]
             ],
             [
                 ["grass"]
@@ -533,33 +657,6 @@
                 ["grass"]
             ],
             [
-                ["wall"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["wall"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
                 ["grass"]
             ],
             [
@@ -567,103 +664,6 @@
             ],
             [
                 ["wall"]
-            ]
-        ],
-        [
-            [
-                ["wall"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["wall"]
-            ],
-            [
-                ["wall"]
-            ],
-            [
-                ["wall"]
-            ],
-            [
-                ["wall"]
-            ],
-            [
-                ["wall"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["wall"]
-            ]
-        ],
-        [
-            [
-                ["wall"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["wall"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
             ],
             [
                 ["wall"]
@@ -727,7 +727,13 @@
                 ["spawn"]
             ],
             [
+                ["wall"]
+            ],
+            [
                 ["grass"]
+            ],
+            [
+                ["wall"]
             ],
             [
                 ["grass"]
@@ -743,12 +749,6 @@
             ],
             [
                 ["wall"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
             ],
             [
                 ["grass"]
@@ -789,10 +789,7 @@
                 ["grass"]
             ],
             [
-                ["grass"]
-            ],
-            [
-                ["grass"]
+                ["wall"]
             ],
             [
                 ["grass"]
@@ -811,6 +808,9 @@
             ],
             [
                 ["grass"]
+            ],
+            [
+                ["wall"]
             ],
             [
                 ["grass"]
@@ -861,62 +861,6 @@
                 ["grass"]
             ],
             [
-                ["wall"]
-            ],
-            [
-                ["wall"]
-            ],
-            [
-                ["wall"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["wall"]
-            ]
-        ],
-        [
-            [
-                ["wall"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
-                ["grass"]
-            ],
-            [
                 ["grass"]
             ],
             [
@@ -929,13 +873,7 @@
                 ["grass"]
             ],
             [
-                ["grass"]
-            ],
-            [
                 ["wall"]
-            ],
-            [
-                ["grass"]
             ],
             [
                 ["grass"]
@@ -985,9 +923,6 @@
                 ["grass"]
             ],
             [
-                ["wall"]
-            ],
-            [
                 ["grass"]
             ],
             [
@@ -998,6 +933,71 @@
             ],
             [
                 ["grass"]
+            ],
+            [
+                ["wall"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["wall"]
+            ]
+        ],
+        [
+            [
+                ["wall"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["grass"]
+            ],
+            [
+                ["wall"]
+            ],
+            [
+                ["wall"]
+            ],
+            [
+                ["wall"]
             ],
             [
                 ["grass"]

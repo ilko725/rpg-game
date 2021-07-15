@@ -1,16 +1,24 @@
 import EventSourceMixin from '../common/EventSourceMixin';
+import ClientCamera from './ClientCamera';
+import ClientInput from './ClientInput';
 
 class ClientEngine {
   constructor(canvas) {
     console.log(canvas);
-
-    Object.assign(this, {
-      canvas,
-      ctx: null,
-      imageLoaders: [],
-      sprites: {},
-      images: {},
-    });
+    // Object.assign(this, {
+    //     canvas,
+    //     ctx: null,
+    //     imageLoaders: [],
+    //     sprites: {},
+    //     images: {},
+    // });
+    this.canvas = canvas;
+    this.ctx = null;
+    this.imageLoaders = [];
+    this.sprites = {};
+    this.images = {};
+    this.camera = new ClientCamera({ canvas, engine: this });
+    this.input = new ClientInput(canvas);
 
     this.ctx = canvas.getContext('2d');
 
@@ -38,20 +46,11 @@ class ClientEngine {
     this.imageLoaders = [];
 
     // for (const groupName in spritesGroup) {
-    //   const group = spritesGroup[groupName];
-    //   this.sprites[groupName] = group;
-
-    //   for (const spriteName in group) {
-    //     const { img } = group[spriteName];
-    //     if (!this.images[img]) {
-    //       this.imageLoaders.push(this.loadImage(img));
-    //     }
-    //   }
-    // }
     Object.keys(spritesGroup).forEach((groupName) => {
       const group = spritesGroup[groupName];
       this.sprites[groupName] = group;
 
+      //   for (const spriteName in group) {
       Object.keys(group).forEach((spriteName) => {
         const { img } = group[spriteName];
         if (!this.images[img]) {

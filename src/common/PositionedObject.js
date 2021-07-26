@@ -46,7 +46,6 @@ class PositionedObject {
    */
   canvasPosition(offsetPercentX = 0, offsetPercentY = 0) {
     const pos = this.worldPosition(offsetPercentX, offsetPercentY);
-
     return {
       x: pos.x,
       y: pos.y,

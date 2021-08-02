@@ -63,7 +63,7 @@
             [["grass"]],
             [["grass"]],
             [["grass"]],
-            [["grass"]],
+            [["grass"], ["water"]],
             [["grass"], ["npcSpawn"]],
             [["grass"]],
             [["grass"]],

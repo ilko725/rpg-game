@@ -16,6 +16,7 @@ class ClientGame {
 
   setPlayer(player) {
     this.player = player;
+    console.log(this.player);
   }
 
   createEngine() {

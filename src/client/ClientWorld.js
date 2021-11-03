@@ -23,9 +23,7 @@ class ClientWorld extends PositionedObject {
   }
 
   init() {
-    const {
-      levelCfg, map, worldWidth, worldHeight,
-    } = this;
+    const { levelCfg, map, worldWidth, worldHeight } = this;
 
     for (let row = 0; row < worldHeight; row += 1) {
       for (let col = 0; col < worldWidth; col += 1) {
@@ -44,9 +42,7 @@ class ClientWorld extends PositionedObject {
   }
 
   render(time) {
-    const {
-      levelCfg/*, map, worldWidth, worldHeight,*/
-    } = this;
+    const { levelCfg /*, map, worldWidth, worldHeight,*/ } = this;
 
     for (let layerId = 0; layerId < levelCfg.layers.length; layerId += 1) {
       const layer = levelCfg.layers[layerId];
@@ -81,7 +77,10 @@ class ClientWorld extends PositionedObject {
     }
 
     engine.renderCanvas(layerName, cameraPos, {
-      x: 0, y: 0, width: cameraPos.width, height: cameraPos.height,
+      x: 0,
+      y: 0,
+      width: cameraPos.width,
+      height: cameraPos.height,
     });
   }
 
@@ -109,17 +108,13 @@ class ClientWorld extends PositionedObject {
   }
 
   cellAtXY(x, y) {
-    const {
-      width, height, cellWidth, cellHeight,
-    } = this;
+    const { width, height, cellWidth, cellHeight } = this;
 
     return this.cellAt((clamp(x, 0, width - 1) / cellWidth) | 0, (clamp(y, 0, height - 1) / cellHeight) | 0);
   }
 
   getRenderRange() {
-    const {
-      x, y, width, height,
-    } = this.engine.camera.worldBounds();
+    const { x, y, width, height } = this.engine.camera.worldBounds();
     const { cellWidth, cellHeight } = this;
 
     return {

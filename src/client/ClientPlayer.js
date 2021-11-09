@@ -3,14 +3,7 @@ import ClientGameObject from './ClientGameObject';
 class ClientPlayer extends ClientGameObject {
   constructor(cfg) {
     super(cfg);
-    // console.log(playerNameInput());
-    console.log('##### Player Name', this.playerName);
-    this.playerName = cfg.playerName;
-    console.log('CL FROM CLIENTPLAYER', this.playerName);
-
-    const { world } = cfg.cell;
-
-    world.game.setPlayer(this);
+    this.playerName = cfg.objCfg.playerName;
   }
 
   render(time) {
